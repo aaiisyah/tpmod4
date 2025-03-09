@@ -38,5 +38,10 @@ namespace tpmodul4_103022300116
                 Console.WriteLine("Pintu sudah terkunci");
             }
         }
+
+        public void ShowState()
+        {
+            Console.WriteLine($"Status pintu saat ini: {currentState.ToString()}");
+        }
     }
 }
